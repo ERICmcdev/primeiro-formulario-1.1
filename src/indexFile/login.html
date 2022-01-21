@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <title>log in</title>
+</head>
+
+<body>
+    <main id="container">
+        <header class="header-page">
+            <span>hello,</span>
+            <span>log in!</span>
+        </header>
+        <form action="">
+            <div class="text-align-end-box">    
+                <a href="/src/indexFile/Register.html">create account</a>
+            </div>
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="email">email adress</label>
+                    <input id="email" type="email" placeholder="exemplo1@gmail.com" required>
+                </div>
+            </div>
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="password-login-page">password</label>
+                    <div class="password-box">
+                        <input id="password-login-page" type="password" placeholder="your password" minlength="6" maxlength="12" required >
+                        <img class="view-password-button view-password-button--login--page" src="/src/images/visibility.png" alt="ver ou não a senha">
+                    </div>
+                </div>
+            </div>
+            <div class="align-items">
+                <div>
+                    <label for="remember-password">remember my password</label>
+                    <input type="checkbox" id="remember-password">
+                </div>
+                <a href="/src/indexFile/recoverPassword.html">forgot password?</a>
+            </div>
+            <button class="button-box button-box--teste">log in</button>
+            <div class="login-social-media-box">
+                <div class="login-social-media">
+                    <a href="#">
+                        <img src="/src/images/twitter.png" alt="logo do twitter">
+                    </a>
+                </div>
+                <div class="login-social-media">
+                    <a href="#">
+                        <img src="/src/images/google.png" alt="logo do google">
+                    </a>
+                </div>
+            </div>
+            </div>
+            <span class="credits">created and produced by <a
+                    href="https://www.instagram.com/ericm.dev/">@ericm.dev</a></span>
+        </form>
+    </main>
+    <script src="/src/scripts/scriptsLogin.js"></script>
+</body>
+
+</html>

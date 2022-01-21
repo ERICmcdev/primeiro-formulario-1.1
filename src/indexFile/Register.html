@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <title>Register</title>
+</head>
+
+<body>
+    <main id="container">
+        <header class="header-page">
+            <span>hello,</span>
+            <span>create your account!</span>
+        </header>
+        <form action="">
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="name">your name</label>
+                    <input id="name" type="name" placeholder="name" minlength="3" required="">
+                </div>
+            </div>
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="email">email adress</label>
+                    <input id="email" type="email" placeholder="exemplo1@gmail.com" required="">
+                </div>
+            </div>
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="password-registration-page">password</label>
+                    <div class="password-box">
+                        <input id="password-registration-page" type="password" placeholder="your password" minlength="6" maxlength="12" required>
+                        <img class="view-password-button view-password-button--registration--page" src="/src/images/visibility.png" alt="deixar senha visível ou não">
+                    </div>
+                </div>
+            </div>
+            <div class="border-gradient">
+                <div class="field">
+                    <label for="password-registration-page">confirm your password</label>
+                    <div class="password-box">
+                        <input id="password-registration-page--second" type="password" placeholder="confirm your password" minlength="6" maxlength="12" required>
+                        <img class="view-password-button view-password-button--registration--page--second" src="/src/images/visibility.png" alt="deixar senha visível ou não">
+                    </div>
+                </div>
+            </div>
+            <div class="align-items">
+                <div>
+                    <label for="terms-use">i accepted the terms of use</label>
+                    <input type="checkbox" id="terms-use" required>
+                </div>
+                <a href="/src/indexFile/login.html">back to log in</a>
+            </div>
+            <button class="button-box">sign up!</button>
+            <div class="login-social-media-box">
+                <div class="login-social-media">
+                    <a href="#">
+                        <img src="/src/images/twitter.png" alt="logo twitter">
+                    </a>
+                </div>
+                <div class="login-social-media">
+                    <a href="#">
+                        <img src="/src/images/google.png" alt="logo google">
+                    </a>
+                </div>
+            </div>
+            </div>
+            <span class="credits">created and produced by <a
+                    href="https://www.instagram.com/ericm.dev/">@ericm.dev</a></span>
+        </form>
+    </main>
+    <script src="/src/scripts/scripts.js"></script>
+</body>
+
+</html>

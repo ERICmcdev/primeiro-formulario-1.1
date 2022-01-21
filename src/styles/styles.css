@@ -1,0 +1,273 @@
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: #e8eeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.header-page {
+    width: 60%;
+    height: 30%;
+    background-color: rgb(143, 148, 199);
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 2.7rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.header-page:hover {
+    transition-duration: 1s;
+    background-color: rgb(132, 136, 182);
+    width: 62%;
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.header-page > span {
+    margin: 0 0 10px 0;
+}
+
+.logo-app {
+    width: 190px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+}
+
+.logo-app > img {
+    width: 100%;
+}
+
+.column-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-app {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: rgb(27, 27, 51);
+}
+
+.sub-title-app {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: rgb(27, 27, 51);
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-align-end-box {
+    width: 80%;
+    padding: 0 0 10px 0;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(60, 60, 117);
+}
+
+.text-align-end-box--margin-bottom {
+    margin: 0 0 60px 0;
+}
+
+.button-box {
+    width: 80%;
+    height: 50px;
+    background-color: rgba(111, 132, 202, 0.603);
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    color: #f6fdff;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-box:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(156, 158, 221);
+    width: 81%;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.button-box > img {
+    margin: 0 10px 0 0;
+}
+
+.button-box > button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.button-box::first-letter{
+    text-transform: capitalize;
+}
+
+.login-social-media-box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-social-media {
+    margin: 20px 5px 10px 5px;
+}
+
+.credits {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.credits::first-letter{
+    text-transform: capitalize;
+}
+
+.border-gradient {
+    width: 80%;
+    height: 50px;
+    background-image: linear-gradient(to left, rgb(220, 218, 250), rgb(166, 173, 240));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+
+.border-gradient:hover {
+    background-image: linear-gradient(to right, rgb(228, 229, 248), rgb(223, 226, 248));
+}
+
+.field {
+    width: 99.2%;
+    height: 96%;
+    border-radius: 10px;
+    /* margin: 0 0 20px 0; */
+    padding: 0 0 0 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.password-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10px 0 0;
+}
+
+.password-box > input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.password-box > input::placeholder {
+    font-size: 16px;
+}
+
+.view-password-button {
+    cursor: pointer;
+    width: 20px;
+}
+
+.field > label {
+    width: auto;
+    transform: translateY(-10px) translateX(10px);
+    background: linear-gradient(#f6fdff00,#ffffff 80%);
+}
+
+.field > input {
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.field > input::placeholder {
+    font-size: 16px;
+}
+
+.header-welcome {
+    width: 100%;
+    height: 400px;
+    transform: translateY(-300px);
+    background-color: rgb(175, 175, 236);
+    border-radius: 0 0 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 10px;
+    animation: movingHeader 1s 3;
+}
+
+.header-welcome:hover {
+    transition-duration: 2s;
+    transform: translateY(-150px);
+}
+
+.header-welcome > span {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.align-items {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0 70px 0;
+}
+
+.align-items > div::first-letter{
+    text-transform: capitalize;
+}
